@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>RailsTutorial</title>
+    <title><%= yield(:title)%> | Ruby on Rails Tutorial Sample App</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
@@ -10,7 +10,6 @@
   </head>
 
   <body>
-    <h1>Hello World</h1>
     <%= yield %>
   </body>
 </html>
