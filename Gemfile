@@ -8,7 +8,7 @@ gem "bootsnap", ">= 1.4.2", require: false
 gem "bootstrap-sass", "3.4.1"
 gem "jquery-rails"
 gem "rails", "~> 6.0.3", ">= 6.0.3.4"
-
+gem "rails-i18n"
 # Use Puma as the app server
 gem "puma", "~> 4.1"
 # Use SCSS for stylesheets
