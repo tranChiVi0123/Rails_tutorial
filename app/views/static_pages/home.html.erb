@@ -1,7 +1,19 @@
-<h1>Sample App</h1>
 <% provide(:title,"Home")%>
-<p>
+<h1>Welcome to the Sample App</h1>
+<h2>
     This is the home page for the
     <a href="https://www.railstutorial.org/">Ruby on Rails Tutorial</a>
     sample application.
-</p>
+</h2>
+
+<div class="row align-items-center justify-content-center">
+    <div class="col">
+        <%= link_to "Sign up now!", signup_path, class: "btn btn-lg btn-primary" %>
+    </div>
+</div>
+</div>
+<%= link_to image_tag("rails-logo.png", alt: "Rails logo", width: "200px"),
+"https://www.pngfind.com/pngs/m/344-3441378_ruby-on-rails-ruby-on-rails-logo-png.png" %>
+
+<%= link_to image_tag("doraemon.png", alt: "Rails logo", width: "400px"),
+"https://st4.depositphotos.com/11095424/27029/i/1600/depositphotos_270299222-stock-photo-doraemon-japan-manga-illustration-characters.jpg" %>
