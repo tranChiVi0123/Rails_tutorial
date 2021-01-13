@@ -34,6 +34,7 @@ group :development, :test do
   gem "rubocop-checkstyle_formatter", require: false
   gem "rubocop-rails", "~> 2.3.2", require: false
   # Use sqlite3 as the database for Active Record
+  gem "guard"
   gem "sqlite3", "~> 1.4"
 end
 
