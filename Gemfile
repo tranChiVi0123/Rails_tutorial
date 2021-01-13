@@ -6,6 +6,7 @@ ruby "2.7.0"
 gem "bootsnap", ">= 1.4.2", require: false
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem "rails", "~> 6.0.3", ">= 6.0.3.4"
+gem "rails-i18n"
 # Use Puma as the app server
 gem "puma", "~> 4.1"
 # Use SCSS for stylesheets
@@ -34,6 +35,7 @@ group :development, :test do
   gem "rubocop-checkstyle_formatter", require: false
   gem "rubocop-rails", "~> 2.3.2", require: false
   # Use sqlite3 as the database for Active Record
+  gem "guard"
   gem "sqlite3", "~> 1.4"
 end
 
