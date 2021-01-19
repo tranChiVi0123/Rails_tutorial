@@ -12,5 +12,6 @@ class UsersSignupTest < ActionDispatch::IntegrationTest
     follow_redirect!
     assert_template "users/new"
     assert_not flash.danger
+    assert is_logged_in?
   end
 end
