@@ -10,10 +10,10 @@ class UsersController < ApplicationController
   def create
     @user = User.new(user_params) # Not the final implementation!
     if @user.save
-      flash[:success] = I18n.t(:message_success)
+      flash.now[:success] = I18n.t(:message_success)
       redirect_to @user
     else
-      flash[:danger] = I18n.t(:message_fail)
+      flash.now[:danger] = I18n.t(:message_fail)
       render :new
     end
   end

@@ -1,12 +1,14 @@
-<% if @user.errors.any? %>
-    <div id="error_explanation">
-        <div class="alert alert-danger">
-            <%= I18n.t(:valid_form) %><%= pluralize(@user.errors.count, I18n.t(:message_fail)) %>.
-        </div>
-        <ul>
-            <% @user.errors.full_messages.each do |msg| %>
-                <li><%= msg %></li>
-            <% end %>
-        </ul>
+<div>
+  <% if @user.errors.any? %>
+  <div id="error_explanation">
+    <div class="alert alert-danger">
+      <%= I18n.t(:valid_form) %><%= pluralize(@user.errors.count, I18n.t(:message_fail)) %>.
     </div>
-<% end %>
+    <ul>
+      <% @user.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+    </ul>
+  </div>
+  <% end %>
+</div>
