@@ -5,6 +5,7 @@ ruby "2.7.0"
 
 gem "bootsnap", ">= 1.4.2", require: false
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
+gem "bcrypt", "3.1.13"
 gem "bootstrap-sass", "3.4.1"
 gem "jquery-rails"
 gem "rails", "~> 6.0.3", ">= 6.0.3.4"
