@@ -2,11 +2,11 @@
   <% if @user.errors.any? %>
   <div id="error_explanation">
     <div class="alert alert-danger">
-      The form contains <%= pluralize(@user.errors.count, "error") %>.
+      <%= I18n.t(:valid_form) %><%= pluralize(@user.errors.count, I18n.t(:message_fail)) %>.
     </div>
     <ul>
       <% @user.errors.full_messages.each do |msg| %>
-      <li><%= msg %></li>
+        <li><%= msg %></li>
       <% end %>
     </ul>
   </div>
