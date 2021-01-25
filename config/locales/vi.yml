@@ -60,3 +60,8 @@ vi:
   all_user: 'Tất cả user'
   delete_user: "Xóa tài khoản."
   delete_btn: "Xóa"
+  subject_account_activation: "Account activation"
+  please_check_your_mail: "Vui kiềm kiểm tra email của bạn để  kích hoạt tài khoản."
+  account_activated: "Tài khoản đã được kích hoạt."
+  invalid_activation_link: "Link kích hoạt không hợp lệ"
+  account_not_activated: "Tài khoảng chưa kích hoạt"
