@@ -74,3 +74,8 @@ vi:
   password_reset_has_expired: "Password reset has expired."
   micropost_created: "Micropost đã được tạo"
   micropost_deleted: "Micropost đã xóa"
+  following: "Đang theo dõi"
+  follower: "Người theo dõi"
+  micropost_feed: "Bảng tin"
+  follow: "Theo dõi"
+  unfollow: "Bỏ theo dõi"
