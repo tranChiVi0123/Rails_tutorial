@@ -60,3 +60,8 @@ en:
   all_user: 'All users'
   delete_user: "User deleted"
   delete_btn: "Delete"
+  subject_account_activation: "Account activation"
+  please_check_your_mail: "Please check your email to activate your account."
+  account_activated: "Account activated!"
+  invalid_activation_link: "Invalid activation link"
+  account_not_activated: "Account not activated. "
