@@ -15,7 +15,7 @@ class SessionsController < ApplicationController
         redirect_to root_url
       end
     else
-      flash[:danger] = I18n.t(:invalid_email_combination)
+      flash[:danger] = t "invalid_email_combination"
       render :new
     end
   end
