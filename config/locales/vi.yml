@@ -72,3 +72,5 @@ vi:
   cant_be_empty: "Không được để trống"
   password_has_been_reset: "Password đã được reset"
   password_reset_has_expired: "Password reset has expired."
+  micropost_created: "Micropost đã được tạo"
+  micropost_deleted: "Micropost đã xóa"

@@ -72,3 +72,5 @@ en:
   cant_be_empty: "can't be empty"
   password_has_been_reset: "Password has been reset."
   password_reset_has_expired: "Password reset đã quá hạn."
+  micropost_created: "Micropost created!"
+  micropost_deleted: "Micropost deleted"

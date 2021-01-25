@@ -1,15 +1,32 @@
 <h1><%= t(".nameApp")%></h1>
 <% provide(:title,"Home")%>
-<h1><%= t(:welcome_content_home)%></h1>
-<h2>
-  This is the home page for the
-  <a href="https://www.railstutorial.org/">Ruby on Rails Tutorial</a>
-  sample application.
-</h2>
-
-<div class="row">
-  <div class="col-4">
-    <%= link_to t(:sign_up_now), signup_path, class: "btn btn-lg btn-primary", style:"margin: auto;float: left; position: relative; left: 40%;" %>
+<% if logged_in? %>
+  <div class="row">
+    <aside class="col-md-4">
+      <section class="user_info">
+        <%= render 'shared/user_info' %>
+      </section>
+      <section class="micropost_form">
+        <%= render 'shared/micropost_form' %>
+      </section>
+    </aside>
+    <div class="col-md-8">
+      <h3>Micropost Feed</h3>
+      <%= render 'shared/feed' %>
+    </div>
   </div>
-</div>
-</div>
+<% else %>
+  <h1><%= t(:welcome_content_home)%></h1>
+  <h2>
+    This is the home page for the
+    <a href="https://www.railstutorial.org/">Ruby on Rails Tutorial</a>
+    sample application.
+  </h2>
+
+  <div class="row">
+    <div class="col-4">
+      <%= link_to t(:sign_up_now), signup_path, class: "btn btn-lg btn-primary", style:"margin: auto;float: left; position: relative; left: 40%;" %>
+    </div>
+  </div>
+  </div>
+<% end %>
