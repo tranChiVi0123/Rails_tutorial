@@ -50,3 +50,13 @@ en:
   password_confirmation: "Password Confirmation"
   remember_me: "Remember me on this Computer"
   new_user: "New user?"
+  update_your_profile: "Update your profile"
+  edit_user: "Edit user"
+  create_account_btn: "Create Account"
+  update_account_btn: "Update"
+  profile_updated: "Profile updated"
+  please_log_in: "Please log in."
+  invalid_email_combination: "Invalid email/password combination"
+  all_user: 'All users'
+  delete_user: "User deleted"
+  delete_btn: "Delete"

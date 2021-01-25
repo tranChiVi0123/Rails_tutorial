@@ -7,9 +7,12 @@ gem "bootsnap", ">= 1.4.2", require: false
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem "bcrypt", "3.1.13"
 gem "bootstrap-sass", "3.4.1"
+gem "bootstrap-will_paginate", "1.0.0"
+gem "faker", "2.1.2"
 gem "jquery-rails"
 gem "rails", "~> 6.0.3", ">= 6.0.3.4"
 gem "rails-i18n"
+gem "will_paginate", "3.1.8"
 # Use Puma as the app server
 gem "puma", "~> 4.1"
 # Use SCSS for stylesheets

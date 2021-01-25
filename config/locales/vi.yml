@@ -50,3 +50,13 @@ vi:
   password_confirmation: "Xác nhận mật khẩu"
   remember_me: "Nhớ mật khẩu của tôi trên thiết bị này"
   new_user: "Bạn chưa có tài khoản?"
+  update_your_profile: "Cập nhật thông tin của bạn"
+  edit_user: "Cập nhật tài khoản"
+  create_account_btn: "Tạo tài khoản"
+  update_account_btn: "Cập nhật"
+  profile_updated: "Cập nhật thành công"
+  please_log_in: "Vui lòng đăng nhập."
+  invalid_email_combination: "Invalid email/password combination"
+  all_user: 'Tất cả user'
+  delete_user: "Xóa tài khoản."
+  delete_btn: "Xóa"
